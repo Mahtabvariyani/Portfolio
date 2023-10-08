@@ -2,6 +2,7 @@ import React from "react";
 import { getimageUrl } from "../../utils";
 import styles from "./About.module.css";
 import ReactPlayer from "react-player";
+import { getVideoUrl } from "../../utils";
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
           loop={true}
           volume={0}
           muted
-          url="assets/about/codeanimation.mp4"
+          url={getVideoUrl('about/codeanimation.mp4')}
           height={"90vh"}
           width={"100%"}
           className={styles.aboutImage}
