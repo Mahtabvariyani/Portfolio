@@ -11,20 +11,21 @@ function Navbar() {
       </a>
       <div className={styles.menu}>
         <img
-          className={styles.menuBtn}
+          className={`${styles.menuBtn}`} // Add the menuBtn class here
           src={
             menuOpen
               ? getimageUrl("nav/close.png")
               : getimageUrl("nav/hammenu.png")
           }
-          onClick={() => setMenuOpen(!menuOpen)}
           alt="menu-button"
+          onClick={() => setMenuOpen(!menuOpen)}
         />
-        <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen} `} 
-        onClick={()=> setMenuOpen(false)}
+        <ul
+          className={`${styles.menuItems} ${menuOpen && styles.menuOpen} `}
+          onClick={() => setMenuOpen(true)}
         >
           <li>
-            <a href="#about">About</a>{" "}
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#experience">Experience</a>

@@ -33,7 +33,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 8300px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -60,12 +60,8 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background-color: rgba(12, 12, 12, 0.6);
+ 
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
