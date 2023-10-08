@@ -1,7 +1,7 @@
 :root {
     /* Colours */
     --color-text: #fff;
-    --color-primary: #7a7a7a;
+    --color-primary: hsl(195, 25%, 69%);
     --color-secondary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #04152d;

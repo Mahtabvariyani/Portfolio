@@ -4,7 +4,6 @@ import styles from "./About.module.css";
 import ReactPlayer from "react-player";
 import { getVideoUrl } from "../../utils";
 import { useEffect, useState } from "react";
-  const [domLoaded, setDomLoaded] = useState(false);
 
 
   
@@ -34,22 +33,20 @@ function About() {
         )}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getimageUrl("about/about.png")} alt="cursur" />
+
             <div className={styles.aboutItemText}>
               <h3>Frontend developer </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
-                unde. Lorem ipsum dolor sit amet.
+              a Junior front-end developer, enthusiastic about React.js and  JavaScript and CSS. I'm eager to learn and contribute to creating engaging and user-friendly web interfaces.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getimageUrl("about/about.png")} alt="server" />
+        
             <div className={styles.aboutItemText}>
               <h3>BackEnd developer </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
-                unde. Lorem ipsum dolor sit amet.
+              As a Junior back-end developer, I'm learning and growing my skills in Node.js, Express, MongoDB, and Next.js to build web applications with enthusiasm and dedication.
               </p>
             </div>
           </li>
