@@ -1,0 +1,38 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "expriences/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "expriences/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "expriences/reactjs.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "expriences/nodejs.png"
+    },
+    {
+      "title": "Expressjs",
+      "imageSrc": "expriences/expressjs.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "expriences/mongoDB.png"
+    },
+    {
+      "title": "Nextjs",
+      "imageSrc": "expriences/nextjs.svg"
+    },
+    {
+      "title": "TypeScript",
+      "imageSrc": "expriences/typeScript.png"
+    },
+    {
+      "title": "Handlebars",
+      "imageSrc": "expriences/handlebars.png"
+    }
+  ]

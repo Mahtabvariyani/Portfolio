@@ -1,7 +1,10 @@
 import styles from "./App.module.css";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Exprience from "./components/Experience/Exprience";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Exprience />
+      <Projects />
+      <Contact />
     </div>
   );
 }
