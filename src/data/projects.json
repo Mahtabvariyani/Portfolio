@@ -1,26 +1,50 @@
 [
-    {
-      "title": "WeCode",
-      "imageSrc": "projects/Wecode.png",
-      "description": "This is Social Media app to connects developers.",
-      "skills": ["Nextjs", "mongoDB", "TypeScript"],
-      "demo": "https://we-dev.vercel.app/sign-in?redirect_url=https%3A%2F%2Fwe-dev.vercel.app%2F",
-      "source": "https://github.com/Mahtabvariyani/WeDev"
-    },
-    {
-      "title": "NaturalLife",
-      "imageSrc": "projects/NaturalLife.png",
-      "description": " Website for a villlage Family to sell their Stuff.",
-      "skills": ["Nodejs", "Express", "mongoDB", "Handlebars"],
-      "demo": "#",
-      "source": "https://github.com/Mahtabvariyani/NaturalLife"
-    },
-    {
-      "title": "DropGame",
-      "imageSrc": "projects/game.png",
-      "description": "This is a Small Game of Drap and Drop ",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "demo": "https://mahtabvariyani.github.io/GAME-PUZZLE/Srart.html",
-      "source": "https://github.com/Mahtabvariyani/GAME-PUZZLE/tree/main"
-    }
-  ]
+  {
+    "title": "WeCode",
+    "imageSrc": "projects/Wecode.png",
+    "description": "This is Social Media app to connects developers.",
+    "skills": ["Nextjs", "mongoDB", "TypeScript"],
+    "demo": "https://we-dev.vercel.app/sign-in?redirect_url=https%3A%2F%2Fwe-dev.vercel.app%2F",
+    "source": "https://github.com/Mahtabvariyani/WeDev"
+  },
+  {
+    "title": "NaturalLife",
+    "imageSrc": "projects/NaturalLife.png",
+    "description": " Website for a villlage Family to sell their Stuff.",
+    "skills": ["Nodejs", "Express", "mongoDB", "Handlebars"],
+    "demo": "#",
+    "source": "https://github.com/Mahtabvariyani/NaturalLife"
+  },
+  {
+    "title": "DropGame",
+    "imageSrc": "projects/game.png",
+    "description": "This is a Small Game of Drap and Drop ",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://mahtabvariyani.github.io/GAME-PUZZLE/Srart.html",
+    "source": "https://github.com/Mahtabvariyani/GAME-PUZZLE/tree/main"
+  },
+  {
+    "title": "API",
+    "imageSrc": "projects/game.png",
+    "description": "An interconnected web application with diverse pages, each linked to various APIs for comprehensive testing and functionality. Explore different API integrations across each page, showcasing the dynamic interaction with varied external services.",
+    "skills": ["mongoDB", "TailwindCss", "Nextjs"],
+    "demo": "https://labtop-blog.vercel.app/",
+    "source": "https://github.com/Mahtabvariyani/APi"
+  },{
+    "title": "Skiwear Shop",
+    "imageSrc": "projects/game.png",
+    "description":  "A Small Commerce App without Authentication for justy trying and testing the App having a Stripe testing payment and adding the Products and APi  with Sanity",
+    "skills": ["Sanity", "TailwindCss", "Nextjs"],
+    "demo": "https://skiwearshop.vercel.app/",
+    "source": "https://github.com/Mahtabvariyani/skiwearshop"
+  },{
+    "title": "Rent APP",
+    "imageSrc": "projects/game.png",
+    "description":       "This is a small Renting app that is connected to the Api so the user can search and find a car to rent ",
+
+    "skills": ["API", "TailwindCss", "Nextjs"],
+    "demo": "https://carrenting-app.vercel.app/",
+    "source": "https://github.com/Mahtabvariyani/Renting-App"
+
+  }
+]
